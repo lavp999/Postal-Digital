@@ -1,15 +1,11 @@
-* {
-	border: 1px dashed red;
-	min-height: 10px;
-}
-
 body {
 	background: black;
 }
 
 p {
-	color: blue;
+	color: rgb(0, 0, 3);
 	font-size: small;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .postcard {
@@ -17,6 +13,7 @@ p {
 	width: 400px;
 	height: 300px;
 	margin: auto;
+	padding-top: 5px;
 }
 
 .postcard-header {
@@ -48,8 +45,17 @@ p {
 
 input {
 	border: none;
-	border-bottom: grey;
+	border-bottom: grey solid;
+	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .postcard-footer {
+	text-align: center;
+}
+
+button {
+	border: none;
+	background-color: rgb(184, 178, 178);
+	padding: 5px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
